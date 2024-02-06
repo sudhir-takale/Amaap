@@ -38,7 +38,6 @@
 
 - Requires internet connection
 - single point of failure
-- merge conflicts are more
 
 **_ Branch Based Development _**
 --- developement is done is seperate branches.There are multiple branches are present for each feature.Once branches merged into main repo then these should be deleted.
