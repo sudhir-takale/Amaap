@@ -12,7 +12,7 @@
 - Github is webApp to store repository.
 - GitHub is hosted on the web
 
-** Distributed Version Control System **
+**_ Distributed Version Control System _**
 
 \*\* Advantages
 
