@@ -1,0 +1,45 @@
+1) git init 
+- initialize empty repo
+
+2) git add <file_name> or git add .
+- to add file or set to staging area
+
+3) git commit -m "message"
+- to commit changes
+
+4) git push 
+- to push our changes from local to remote repository
+
+5) git status 
+- to check status of repo
+
+6) git branch <branch_name>
+- to create a new branch
+
+7) git checkout <branch_name>
+- to switch to branch
+
+8) git remote add origin <Repo_link>
+- to set origin to remote repo
+
+9) git revert <hash_code>
+- to rollback
+
+10) git log 
+- to view entire history of commits
+
+11) git branch -d <branc_name>
+- to delete branch
+
+12) git cherry-pick <hash_code>
+- to get content of the commit
+
+13) git merge <branc_name>
+- to merge branch
+
+15) git pull 
+- to get changes from remote to local repo
+
+16) git config --global user.name "username"
+
+17) git config --global user.email "email"
