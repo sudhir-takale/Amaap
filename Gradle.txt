@@ -1,0 +1,31 @@
+Date - 06 - 02 - 2024
+
+*** Build Tools *** 
+
+
+# What is build tool
+- It is software that automates creation of executable from the source code
+- It manages the entire code
+- keeps track of what needs to build project like dependancies
+- helps in process of compilation, packaging,testing and deployment.
+
+# Why to use 
+
+Build tools automates the process of compilation, packaging, testing and deployment of software source code.
+For a small project developer can do it manually, but for large project to create build is very difficult at that time build tools are used.
+
+
+# Key objectives 
+- Task automation
+- automates dependancy management
+- Automatic compilation of source code
+
+# Problem solved by Build tools
+- Reduces complexity in compilation
+- helps to reduce repetitive task by automation
+- resolve inconsistency - force to download appropriate version of depedancy
+
+# Build tools
+- Gradle 
+- Maven
+- Ant
