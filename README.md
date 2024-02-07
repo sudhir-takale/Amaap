@@ -91,6 +91,8 @@
 
 - single comit - git cherry-pick <Hash_code_of_commit>
 - Multiple commits - git cherry-pick <starting_hash..Ending_hash>
+- to terminate - git cherry-pick --skip
+- to continue - git cherrypick --continue
 
 # Pull request
 
@@ -105,4 +107,3 @@
 ## Command
 
 - git revert <hash_code_of_Commit>
-
