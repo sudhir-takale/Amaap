@@ -76,7 +76,33 @@
 - developer need to be careful to avoid conflicts
 - Not suitable for large scale projects
 
-** Challenges **
+# Challenges
 
 - Require good communication between the team
 - Feature toggle management
+
+# Date - 06-02-2024
+
+# What is cheery-Pick \_\*\*
+
+- cherry-pick means choosing a commit from one branch and applying it to another branch
+
+## commands
+
+- single comit - git cherry-pick <Hash_code_of_commit>
+- Multiple commits - git cherry-pick <starting_hash..Ending_hash>
+
+# Pull request
+
+- When we want to merge our changes from our branch to main branch at that time we create a pull request.
+- if any conflicts are ocurred then we have to resolvse it manually
+
+# Revert
+
+- if due to merge in main branch the main codebase is distrupted due to our code at that time we revert our changes, so that it will make main branch consistent.
+- revert = rollback
+
+## Command
+
+- git revert <hash_code_of_Commit>
+
