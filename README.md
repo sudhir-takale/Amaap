@@ -107,3 +107,9 @@
 ## Command
 
 - git revert <hash_code_of_Commit>
+kjsafdkjskl
+salklfnds
+kljdsfa
+dfjs
+afdsjfd
+sdajf
