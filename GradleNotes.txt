@@ -1,0 +1,71 @@
+Date - 06 - 02 - 2024
+
+*** Build Tools *** 
+
+
+# What is build tool
+- It is software that automates creation of executable from the source code
+- It manages the entire code
+- keeps track of what needs to build project like dependancies
+- helps in process of compilation, packaging,testing and deployment.
+
+# Why to use 
+
+Build tools automates the process of compilation, packaging, testing and deployment of software source code.
+For a small project developer can do it manually, but for large project to create build is very difficult at that time build tools are used.
+
+
+# Key objectives 
+- Task automation
+- automates dependancy management
+- Automatic compilation of source code
+
+# Problem solved by Build tools
+- Reduces complexity in compilation
+- helps to reduce repetitive task by automation
+- resolve inconsistency - force to download appropriate version of depedancy
+
+# Build tools
+- Gradle 
+- Maven
+- Ant
+
+
+
+Date - 07 - 02 - 2024
+
+*** Why Build-Tools
+
+- Automates the process of
+- manages the dependencies requires for project
+- compiler source code
+- packaging libraries and create executable
+- run the test
+- deploy to the production server
+
+
+*** why Nightly builds:
+
+- it is easy to identify the root cause of each problem.
+- People don’t have to remember about running the build, as it runs automatically, it helps save time.
+- it doesn’t interfere with the regular development and deployment
+- it helps in fast problem-solving.
+
+*** why to use build tools
+
+- make developer more productive by automating task
+- manage entire dependencies
+- ensures correct execution order
+- Saves the time by executing task parallely
+- can automate many build at a time
+- precondition for continuous integration
+
+
+*** Advantageds of Gradle
+- It is easy to use and maintain.
+- It supports dependency management.
+- It provides high performance and scalable builds.
+- Gradle integration process is quite easier.
+- It supports a multi-project structure.
+- The performance of Gradle is very fast and efficient.
+- Gradle is a tool used for creating plug-ins and is a flexible instrument.
