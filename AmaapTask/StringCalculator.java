@@ -32,7 +32,7 @@ public class StringCalculator {
         for (String s : errors)
             System.out.println(s);
 
-        return "Sum is :  " + calculateSum(arrNumber, negativeNum);
+        return "Sum is :  " + calculateSum(arrNumber);
 
     }
 
@@ -56,21 +56,23 @@ public class StringCalculator {
         }
     }
 
-    static float calculateSum(String[] numbers, ArrayList<String> negativeNumbers) {
+    static float calculateSum(String[] numbers) {
         float sum = 0.0f;
         for (String number : numbers) {
             float num = Float.parseFloat(number);
-            if (num <= 1000 && !negativeNumbers.contains(number)) {
+            if (num <= 1000) {
                 sum += num;
             }
         }
         return sum;
+
     }
 
     public static void main(String[] args) {
 
-        System.out.println("--------------");
+       ;
 
         System.out.println(add("175.2,\n35"));
+        System.out.println(add("23\n,175.2,\n35"));
     }
 }
