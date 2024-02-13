@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 public class StringCalculator {
-    static float sum = 0.0f;
 
     static String add(String number) {
 
@@ -13,6 +12,7 @@ public class StringCalculator {
         if (number.isEmpty())
             return "0";
         number = number.trim();
+
         if (number.startsWith("//")) {
             delimiter = number.substring(2, 3);
             number = number.substring(number.indexOf("\n") + 1);
@@ -32,7 +32,7 @@ public class StringCalculator {
         for (String s : errors)
             System.out.println(s);
 
-        return "Sum is :  " + calculateSum(arrNumber);
+        return "Sum is :  " + calculateSum(arrNumber, negativeNum);
 
     }
 
@@ -56,20 +56,21 @@ public class StringCalculator {
         }
     }
 
-    static float calculateSum(String[] numbers) {
+    static float calculateSum(String[] numbers, ArrayList<String> negativeNumbers) {
         float sum = 0.0f;
         for (String number : numbers) {
             float num = Float.parseFloat(number);
-            if (num <= 1000) {
+            if (num <= 1000 && !negativeNumbers.contains(number)) {
                 sum += num;
             }
         }
         return sum;
-
     }
 
     public static void main(String[] args) {
-        String sum = add("175.2,\n3,-5,-2\n,\n1,");
-        System.out.println(sum);
+
+        System.out.println("--------------");
+
+        System.out.println(add("175.2,\n35"));
     }
 }
